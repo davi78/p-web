@@ -41,6 +41,9 @@ h3 {
         margin-right: 20px;
     }
 } */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -105,7 +108,7 @@ h3 {
 }
 
 .gallery img {
-    max-width: 300px;
+    width: 250px;
     height: auto;
     margin: 5px 6px;
     border-radius: 10px;
@@ -119,7 +122,6 @@ h3 {
     cursor: pointer;
     animation: zoom 0.5s forwards;
     filter: brightness(0.8);
-
 }
 
 @keyframes zoom {
@@ -157,7 +159,7 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 850px) {
     .gallery {
         margin: 0 15px;
         margin-bottom: 30px;
