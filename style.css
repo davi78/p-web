@@ -172,6 +172,7 @@ footer {
 
     .container-list {
         width: 350px;
+        display:block;
     }
 
     footer {
